@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomePage">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/Toolbar"/>
+
+
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_bg"
+    tools:context=".HomePage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/main_bg">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="360dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="40dp"
+            app:cardBackgroundColor="#13978A"
+            android:elevation="10dp"
+            app:cardCornerRadius="20dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="175dp">
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="180dp"
+                android:background="#081977"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="180dp"/>
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="! ALERTS"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="#A10909"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="55dp">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tV1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Chances Of Heavy Rain"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tV4"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="30dp"-->
+<!--                    android:layout_marginTop="2dp"-->
+<!--                    android:text="Wind: 7km/hr"-->
+<!--                    android:textColor="@color/white"-->
+<!--                    android:textSize="16dp" />-->
+
+                <TextView
+                    android:id="@+id/tV5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:text="It is advised to avoid any flights for next three days"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                \
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="right">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="WEATHER \nUPDATES"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#7AC3FE"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="55dp">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/rightTv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Partly Cloudy"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/rightTv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Precipitation: 10%"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/rightTv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Humidity: 91%"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/rightTv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Wind: 5km/hr"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="right"
+                android:id="@+id/chatbot"
+                android:src="@drawable/bot_icon" />
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modify your flight A1-0191 booking for 19th sept 2023"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            android:gravity="center_horizontal"
+            android:textSize="20dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="360dp"
+            android:layout_height="250dp"
+            android:layout_margin="22dp"
+            android:elevation="10dp"
+            app:cardBackgroundColor="#2196F3"
+            app:cardCornerRadius="20dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="175dp">
+
+            <WebView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Providing users with useful web links
+such as details about the alert that has been highlighted."
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/webView"
+                android:textColor="@color/black"
+                android:textSize="17dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="360dp"
+            android:layout_height="250dp"
+            android:layout_margin="22dp"
+            app:cardBackgroundColor="#13978A"
+            app:cardCornerRadius="20dp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="175dp">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="CONTACTS:"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="75dp"
+                android:text="##"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="115dp"
+                android:text="Ambulance"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="138dp"
+                android:text="Police Station"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="160dp"
+                android:text="Talk to our Excecutive"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="182dp"
+                android:text="Municipality"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView6"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="40dp"-->
+<!--                android:layout_marginTop="195dp"-->
+<!--                android:text="dmsnbdnbdsksd"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="16dp" />-->
+
+<!--            <pl.droidsonroids.gif.GifImageView-->
+<!--                android:layout_width="90dp"-->
+<!--                android:layout_height="90dp"-->
+<!--                android:layout_gravity="right"-->
+<!--                android:src="@drawable/bot_icon" />-->
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

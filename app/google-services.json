@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "821191538596",
+    "project_id": "kaalvi-e0636",
+    "storage_bucket": "kaalvi-e0636.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821191538596:android:3154a4e90bb1b26d87f331",
+        "android_client_info": {
+          "package_name": "com.example.kaalvi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH2-sB3tx-Xiv2oSeFx_0SFt8IeHLYjVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
